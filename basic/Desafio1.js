@@ -34,6 +34,7 @@ function convertirEnObjetos(){
     let arr = str.split('\n')
     let renglones = arr.slice(1, arr.length -1);
 
+
     renglones.forEach(renglon => {
       let objeto = {
         duracion: {
